@@ -1,0 +1,25 @@
+---
+title: "INDEX - watanabe3ti.github.io"
+---
+
+## *watanabe3ti.github.io*
+
+### ---
+
+```{mermaid}
+
+graph TD
+    A[Home] --> B[About]
+    A --> C[Content 1]
+    A --> D[Content 2]
+    A --> E[Content 3]
+    B --> F[Github ".&-"]
+    B --> G[Github "Repos"]
+    A --> H[Links]
+    H --> I[Internet]
+
+```
+
+------------------------------------------------------------------------
+
+<!--# theme: spacelab  -->
