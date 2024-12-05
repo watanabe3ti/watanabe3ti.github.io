@@ -187,15 +187,19 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph TD
-    A[Home] --&gt; B[About]
-    A --&gt; C[Content 1]
-    A --&gt; D[Content 2]
-    A --&gt; E[Content 3]
-    B --&gt; F[Github ".&amp;-"]
-    B --&gt; G[Github "Repos"]
-    A --&gt; H[Links]
-    H --&gt; I[Internet]
+<pre class="mermaid mermaid-js">---
+title: Git Repository
+---
+sequenceDiagram
+    participant watanabe3tipapa
+    participant watanabe3ti
+    link watanabe3ti: Dashboard @ https://github.com/watanabe3ti
+    link watanabe3ti: gh-pages @ https://github.com/watanabe3ti/watanabe3ti.github.io
+    link watanabe3tipapa: Dashboard @ https://github.com/watanabe3tipapa
+    link watanabe3tipapa: gh-pages @ https://github.com/watanabe3tipapa/watanabe3tipapa.github.io
+    watanabe3tipapa-&gt;&gt;watanabe3ti: Hello My Base Repos, how are you?
+    watanabe3ti--&gt;&gt;watanabe3tipapa: Great!
+    watanabe3tipapa-&gt;&gt;watanabe3ti: See you later!
 
 </pre>
 </div>
