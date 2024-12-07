@@ -6,19 +6,35 @@ title: "INDEX - watanabe3ti.github.io"
 
 ### ---
 
-```{mermaid}
+| Repository | Applications and purpose |
+|------------------------------|------------------------------------------|
+| <https://github.com/watanabe3ti/dad-notes-ce> | obsidian sync 代わりに Quartz + GitHub Pages コラボレーション |
+| <https://github.com/watanabe3ti/dad-tiptap-editor> | MCP Auxiliary Tools for Claude（テキストボックス） |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
-graph TD
-    A[Home] --> B[About]
-    A --> C[Content 1]
-    A --> D[Content 2]
-    A --> E[Content 3]
-    B --> F[Github ".&-"]
-    B --> G[Github "Repos"]
-    A --> H[Links]
-    H --> I[Internet]
+: INDEX
+
+```{mermaid}
+---
+title: Git Repository
+---
+sequenceDiagram
+    participant watanabe3tipapa
+    participant watanabe3ti
+    link watanabe3ti: Dashboard @ https://github.com/watanabe3ti
+    link watanabe3ti: gh-pages @ https://github.com/watanabe3ti/watanabe3ti.github.io
+    link watanabe3tipapa: Dashboard @ https://github.com/watanabe3tipapa
+    link watanabe3tipapa: gh-pages @ https://github.com/watanabe3tipapa/watanabe3tipapa.github.io
+    watanabe3tipapa->>watanabe3ti: Hello My Base Repos, how are you?
+    watanabe3ti-->>watanabe3tipapa: Great!
+    watanabe3tipapa->>watanabe3ti: See you later!
 
 ```
+
+![](assets/UC_DotandDash.jpg)
 
 ------------------------------------------------------------------------
 

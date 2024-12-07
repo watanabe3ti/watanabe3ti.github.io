@@ -2,6 +2,8 @@
 title: "Links - watanabe3ti.github.io"
 ---
 
+![](assets/UC_DotandDash.jpg){width="380"}
+
 | Site Title | URL |
 |------------|-----|
 |            |     |

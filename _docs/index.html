@@ -182,20 +182,59 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="watanabe3ti.github.io"><em>watanabe3ti.github.io</em></h2>
 <section id="section" class="level3">
 <h3 class="anchored" data-anchor-id="section">—</h3>
+<table class="caption-top table">
+<caption>INDEX</caption>
+<thead>
+<tr class="header">
+<th>Repository</th>
+<th>Applications and purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/watanabe3ti/dad-notes-ce" class="uri">https://github.com/watanabe3ti/dad-notes-ce</a></td>
+<td>obsidian sync 代わりに Quartz + GitHub Pages コラボレーション</td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/watanabe3ti/dad-tiptap-editor" class="uri">https://github.com/watanabe3ti/dad-tiptap-editor</a></td>
+<td>MCP Auxiliary Tools for Claude（テキストボックス）</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph TD
-    A[Home] --&gt; B[About]
-    A --&gt; C[Content 1]
-    A --&gt; D[Content 2]
-    A --&gt; E[Content 3]
-    B --&gt; F[Github ".&amp;-"]
-    B --&gt; G[Github "Repos"]
-    A --&gt; H[Links]
-    H --&gt; I[Internet]
+<pre class="mermaid mermaid-js">---
+title: Git Repository
+---
+sequenceDiagram
+    participant watanabe3tipapa
+    participant watanabe3ti
+    link watanabe3ti: Dashboard @ https://github.com/watanabe3ti
+    link watanabe3ti: gh-pages @ https://github.com/watanabe3ti/watanabe3ti.github.io
+    link watanabe3tipapa: Dashboard @ https://github.com/watanabe3tipapa
+    link watanabe3tipapa: gh-pages @ https://github.com/watanabe3tipapa/watanabe3tipapa.github.io
+    watanabe3tipapa-&gt;&gt;watanabe3ti: Hello My Base Repos, how are you?
+    watanabe3ti--&gt;&gt;watanabe3tipapa: Great!
+    watanabe3tipapa-&gt;&gt;watanabe3ti: See you later!
 
 </pre>
 </div>
@@ -203,6 +242,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<p><img src="assets/UC_DotandDash.jpg" class="img-fluid"></p>
 <hr>
 <!--# theme: spacelab  -->
 
@@ -303,7 +343,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/watanabe3ti\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
